@@ -32,7 +32,7 @@
 
 /** @defgroup ETH_Private_TypesDefinitions
   * @{
-  */ 
+  *///
 /**
   * @}
   */ 
