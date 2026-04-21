@@ -3,7 +3,7 @@
   * @file    stm32f4x7_eth.c
   * @author  MCD Application Team
   * @version V1.0.0
-  * @date    14-October-2011
+  * @date    14-October-2012
   * @brief   This file is the low level driver for STM32F407xx/417xx Ethernet Controller.
   *          This driver does not include low level functions for PTP time-stamp.            
   ******************************************************************************
