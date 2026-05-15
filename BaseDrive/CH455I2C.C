@@ -33,7 +33,7 @@ void Alarm_GPIO_Configuration(void)
     SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOG, EXTI_PinSource5);       //  初始化中断线0
 
     EXTI_InitStructure.EXTI_Line = EXTI_Line5;                          //  配置中断线为中断线0
-    EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;                 //  配置中断模式
+    EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;                 //  配置中断模式。
     EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;             //  配置为下降沿触发
     EXTI_InitStructure.EXTI_LineCmd = ENABLE;                           //  配置中断线使能
     EXTI_Init(&EXTI_InitStructure);                              
